@@ -8,6 +8,7 @@
 body {
     background-image: url("../Images/Background.png");
     background-size: cover;
+    overflow: hidden;
 }
 
 header {
@@ -132,4 +133,13 @@ nav {
 
 a:hover {
     color: #fffa;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
