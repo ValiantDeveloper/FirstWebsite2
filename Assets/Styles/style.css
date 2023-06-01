@@ -5,17 +5,14 @@
     transition: 500ms;
 }
 
-body {
-    background-image: url("../Images/Background.png");
-    background-size: cover;
-    overflow: hidden;
-}
-
 header {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url("../Images/Background.png");
+    background-size: cover;
+    overflow: hidden;
 }
 
 nav {
