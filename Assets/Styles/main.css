@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    transition: 500ms;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

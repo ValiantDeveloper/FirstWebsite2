@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prime Car</title>
-    <link rel="stylesheet" href="./Assets/Styles/style.css">
+    <link rel="stylesheet" href="./Assets/Styles/main.css">
+    <link rel="stylesheet" href="./Assets/Styles/header.css">
+    <link rel="stylesheet" href="./Assets/Styles/about.css">
+    <link rel="stylesheet" href="./Assets/Styles/benefits.css">
     <link href="https://fonts.cdnfonts.com/css/american-captain-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link rel="shortcut icon" href="./Assets/Images/logo.png" type="image/x-icon">
 </head>
 <body>
     <script src="./Assets/JS/index.js"></script>
-    <header>
+    <header id="home">
         <nav>
             <h1 id="logo">PRIME CAR</h1>
             <ul class="navLinks">
@@ -32,12 +35,73 @@
         </section>
     </header>
 
-    <section class="about">
-        <h1>ABOUT US</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa fugit minus blanditiis molestiae consequatur corrupti, delectus animi fugiat, voluptatum quo assumenda alias in earum, ipsam harum velit pariatur voluptate maiores.</p>
-        <figure>
-            <img src="" alt="WHIT">
-        </figure>
+    <section class="about" id="about">
+        <h2 class="aboutHeader">ABOUT US</h2>
+        <section class="aboutSect">
+            <div class="texts">
+                <p class="text">
+                    We pride ourselves at being able to get our customer into the car that 
+                    they want, and more importantly, at they price they are looking for.
+                </p><br>
+                <p>
+                    We maintain outstanding customer service by listening to our customers 
+                    and making sure that we meet their needs. Even if you don't buy from 
+                    us, we will offer free advice on whe to look for when buying a used 
+                    car or truck. 
+                </p><br>
+                <p>
+                    Our philosophy is to accomodate you, the customer, with 
+                    outstanding service while providing you the highest quality automobile 
+                    needs at wholesale prices. We have a wide selection of vehicles and 
+                    the expertise to deal with what you are looking for.
+                </p>
+            </div>
+            <img src="./Assets/Images/aboutCarFoto.png" alt="WHIT" class="aboutImg">
+            <p class="bgImg">about us</p>
+        </section>
+    </section>
+
+    <section class="benefits" id="benefits">
+        <div class="texts"> 
+            <h3 class="title">All the benefits you will get when you shop with us</h3>
+            <p class="description">Take advantage of everything you can have now by buying your new car at Prime Car</p>
+        </div>
+
+        <div class="cards">
+            <div class="card1">
+                <div class="box">
+                    <figure>
+                        <img src="./Assets/Images/map-icon.png" alt="map">
+                    </figure>
+                    <p class="text0">Several Headquarters</p>
+                    <p class="text1">
+                        You can find several Prime Car stores around the United States!
+                        <br>
+                        Find the store closest to you now
+                    </p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="box">
+                    <figure>
+                        <img src="./Assets/Images/calendar-icon.png" alt="calendar">
+                    </figure>
+                    <p class="text0">Schedule Your Best Day</p>
+                    <p class="text1">Choose the day and time to take a test drive for free!</p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="box">
+                    <figure>
+                        <img src="./Assets/Images/key-icon.png" alt="key">
+                    </figure>
+                    <p class="text0">Receive your car right away</p>
+                    <p class="text1">Close the contract and you get the keys right away</p>
+                </div>
+            </div>
+        </div>
+        
+       
     </section>
 </body>
 </html>
