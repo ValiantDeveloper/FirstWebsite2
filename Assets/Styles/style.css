@@ -5,8 +5,8 @@
     transition: 500ms;
 }
 
-body {
-    overflow: hidden;
+::-webkit-scrollbar{
+    display: none;
 }
 
 header {
