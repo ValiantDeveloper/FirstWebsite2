@@ -8,6 +8,7 @@ function Tikla() {
     }else {
         document.getElementById("button").style = "background-color: none;";
         alert("Ohhh... Düzeldi");
+        a = true;
     }
 }
 
