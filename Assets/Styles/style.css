@@ -5,6 +5,10 @@
     transition: 500ms;
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     width: 100vw;
     height: 100vh;
@@ -12,7 +16,6 @@ header {
     flex-direction: column;
     background-image: url("../Images/Background.png");
     background-size: cover;
-    overflow: hidden;
 }
 
 nav {
