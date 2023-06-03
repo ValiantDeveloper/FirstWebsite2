@@ -1,0 +1,211 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-2');
+
+.contact {
+    width: 1920px;
+    height: 541px;
+    position: relative;
+}
+
+.contactAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    gap: 435px;
+    
+    position: absolute;
+    
+    height: 308.99px;
+    left: 0px;
+    top: 116px;
+}
+
+.contactTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 659px;
+    height: 198px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+h6 {
+    width: 461px;
+    height: 90px;
+
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactTitle > p {
+    width: 659px;
+    height: 100px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.08px;
+    line-height: 50px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 626.3px;
+    height: 308.99px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 626.26px;
+    height: 31.99px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.numtry {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 626.26px;
+    height: 31.99px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+
+    padding-bottom: 6px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#mesaj {
+    width: 626.3px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+::placeholder {
+    color: white;
+}
+
+#submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 41px;
+    gap: 10px;
+
+    background: none;
+
+    width: 158px;
+    height: 45px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#submit:hover {
+    color: #fffa;
+}
+
+#ulke {
+    width: 302.63px;
+    height: 31px;
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid white  ;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#ulke > option {
+    color: #000;
+}
+
+.bgImg2 {
+    position: absolute;
+    left: -1.46%;
+    right: 36.94%;
+    top: -4.81%;
+    bottom: 64.98%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 246.925px;
+    line-height: 295px;
+    text-transform: lowercase;
+
+    color: #373737;
+
+    opacity: 0.3;
+    z-index: -1;
+}

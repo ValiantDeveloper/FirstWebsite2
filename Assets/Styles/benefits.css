@@ -4,12 +4,6 @@
     position: relative;
 
     background: #1a191a;
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
-    z-index: 1;
 }
 
 .benefits > .texts {

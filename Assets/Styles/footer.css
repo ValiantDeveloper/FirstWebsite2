@@ -1,0 +1,260 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 100px;
+    gap: 69px;
+
+    width: 1920px;
+    height: 470px;
+}
+
+.prime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 173px;
+
+    width: 1720px;
+    height: 249px;
+}
+
+.prime > p {
+    width: 333px;
+    height: 75px;
+
+    font-family: 'American Captain';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.prime > .wwa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+    width: 209px;
+    height: 249px;
+
+    list-style: none;
+}
+
+.wwa > li:nth-child(1) {
+    width: 209px;
+    height: 32px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+
+    color: white;
+
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+}
+
+.prime > .wwa > * {
+    width: 56px;
+    height: 11px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 11px;
+
+
+    color: #BDBDBD;
+
+    mix-blend-mode: normal;
+}
+
+.ql {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    list-style: none;
+    
+    width: 169px;
+    height: 125px;
+}
+
+.ql > li:first-child {
+    width: 169px;
+    height: 32px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+
+    color: white;
+}
+
+.ql > * {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 11px;
+    
+    color: #BDBDBD;
+    
+    mix-blend-mode: normal;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    list-style: none;
+    width: 166px;
+    height: 63px;
+}
+
+.email > li:first-child {
+    width: 126px;
+    height: 32px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+}
+
+.email > li:last-child {
+    width: 166px;
+    height: 11px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 11px;
+    
+    color: #BDBDBD;
+
+    mix-blend-mode: normal;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    list-style: none;
+    width: 148px;
+    height: 157px;
+}
+
+.call > li:first-child {
+    width: 103px;
+    height: 32px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 32px;
+    
+    color: white;
+
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+}
+
+.call > * {
+    width: 148px;
+    height: 27px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    
+    color: #BDBDBD;
+
+    mix-blend-mode: normal;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    
+    width: 126px;
+    height: 32px;
+}
+
+.social > * {
+    font-size: 32px;
+}
+
+.telif {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1031px;
+
+    width: 1720px;
+    height: 32px;
+}
+
+.pp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 34px;
+    
+    width: 258px;
+    height: 32px;
+}
+
+.pp > p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+
+    letter-spacing: -0.019em;
+    text-transform: capitalize;
+}
+
+.telif > p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    
+    letter-spacing: -0.019em;
+}

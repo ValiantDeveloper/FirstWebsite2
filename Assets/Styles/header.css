@@ -5,10 +5,6 @@ header {
     flex-direction: column;
     background-image: url("../Images/Background.png");
     background-size: cover;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 nav {

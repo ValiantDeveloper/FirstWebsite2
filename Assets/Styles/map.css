@@ -1,0 +1,21 @@
+.map {
+    width: 1920px;
+    height: 377px;
+    position: relative;
+}
+
+.map > #map {
+    position: absolute;
+    width: 1920px;
+    height: 377px;
+    left: 0px;
+    top: 0px;
+}
+
+.map > #vektor{
+    position: absolute;
+    left: 44.06%;
+    right: 51.98%;
+    top: 53.57%;
+    bottom: 18.07%;
+}
